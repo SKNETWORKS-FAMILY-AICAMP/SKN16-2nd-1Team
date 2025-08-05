@@ -1,4 +1,4 @@
-# 🎯 SKN16-2nd-1Team: 흡연율 예측 프로젝트
+# 🎯 SKN16-2nd-1Team: 2023년 흡연율 예측 프로젝트
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-v1.0-orange)](https://streamlit.io/)  
