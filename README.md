@@ -1,8 +1,7 @@
 # 🎯 SKN16-2nd-1Team: 2023년 흡연율 예측 프로젝트
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)  
-[![Streamlit](https://img.shields.io/badge/Streamlit-v1.0-orange)](https://streamlit.io/)  
-[![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+[![Streamlit](https://img.shields.io/badge/Streamlit-v1.0-orange)](https://streamlit.io/)
 
 ---
 
@@ -42,7 +41,7 @@
 | `총 인구수`, `성인인구`, `흡연인구` | 인구 통계               |
 | `담배소매지점개수`, `소비자물가지수` | 경제 지표               |
 | `평균 기대수명`, `평균소득월액`, `진학률`, `진료비(천원)` | 보건·복지 지표 |
-| `흡연율`           | (흡연인구 / 성인인구) × 100%  |
+| `흡연율`           | (흡연인구 / 성인인구) × 100(%)  |
 
 <details>
 <summary>🗂️ 전체 컬럼 보기</summary>
