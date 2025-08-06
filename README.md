@@ -135,52 +135,77 @@
 
 ---
 
-## 🚀 3. 시연 페이지  
-Streamlit 웹 앱에서 제공하는 기능:  
-- **데이터 확인**: 원본 데이터 미리보기 & 기초 통계  
-- **연도별 트렌드**: 시도/시군구별 지표 시계열  
-- **상관분석**: 변수 간 산점도·막대차트  
-- **예측 및 튜닝**: 10개 모델 하이퍼파라미터 튜닝, 2023년 흡연율 실시간 예측  
+## 🚀 시연 페이지 (Demo)
 
-<div align="center">
+아래는 Streamlit 웹 앱의 주요 화면입니다.  
+이미지를 클릭하면 원본 크기로 보실 수 있습니다.
 
-<!-- 1행: 연도별 데이터 vs 변수별 상관관계 -->
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/3cc2267b-ccbe-482d-b6e7-bdbdbd02db2c" width="430"/><br/>
-      <em>그림 1. 연도별 주요 지표 추이</em>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/2844e05c-570d-4c91-923d-ec947088d7aa" width="430"/><br/>
-      <em>그림 2. 변수 간 상관관계 히트맵</em>
-    </td>
-  </tr>
-  
-  <!-- 2행: 예측 성능 vs 오차 분포 -->
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/ace84df2-f33a-4510-b262-775b0344456b" width="430"/><br/>
-      <em>그림 3. 최상위 모델 예측 성능</em>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/81304333-0720-4ed4-921f-6ef139852990" width="430"/><br/>
-      <em>그림 4. 예측 오차 분포 히스토그램</em>
-    </td>
-  </tr>
-  
-  <!-- 3행: 전체 예측결과 vs 모델 성능 순위 -->
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/db6c9ea1-59f4-4f1b-a4d3-9200c57e1dba" width="430"/><br/>
-      <em>그림 5. 전체 지역 예측 결과</em>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/f3e6d558-d749-4d62-8be2-a549397353c9" width="430"/><br/>
-      <em>그림 6. 모델 성능 순위 (R²)</em>
-    </td>
-  </tr>
-</table>
+---
+
+### 그림 1. 연도별 주요 지표 추이
+
+<a href="https://github.com/user-attachments/assets/3cc2267b-ccbe-482d-b6e7-bdbdbd02db2c" target="_blank">
+  <img width="1473" height="670" alt="스크린샷 2025-08-06 오후 12 30 07" src="https://github.com/user-attachments/assets/5bb2f6df-3949-425c-86ea-0a1baffc4a96" />
+  <img width="1490" height="600" alt="스크린샷 2025-08-06 오후 12 31 05" src="https://github.com/user-attachments/assets/381c56a5-aa5f-4087-b2f2-8ee0d9734f96" />
+</a>
+
+
+<p align="center"><em>그림 1. 2020–2023년 시도별 주요 지표 연도별 추이</em></p>
+
+---
+
+### 그림 2. 변수 간 상관관계 히트맵
+
+<a href="https://github.com/user-attachments/assets/2844e05c-570d-4c91-923d-ec947088d7aa" target="_blank">
+  <img width="1127" height="683" alt="스크린샷 2025-08-06 오후 12 22 31" src="https://github.com/user-attachments/assets/c730011d-0b65-45b5-a898-553f9c5d1007" />
+</a>
+<p align="center"><em>그림 2. 데이터 전체 변수 간 Pearson 상관관계</em></p>
+
+---
+
+### 그림 3. 전체 예측 성능
+
+<a href="https://github.com/user-attachments/assets/ace84df2-f33a-4510-b262-775b0344456b" target="_blank">
+  <img width="1501" height="699" alt="스크린샷 2025-08-06 오후 12 23 51" src="https://github.com/user-attachments/assets/d8c5bcb4-42b8-49ea-a53d-964f0dec21c5" />
+  <img width="1143" height="556" alt="스크린샷 2025-08-06 오후 12 27 05" src="https://github.com/user-attachments/assets/8721a400-f199-4f69-9f7f-8f5408479d5f" />
+  <img width="1229" height="554" alt="스크린샷 2025-08-06 오후 12 27 58" src="https://github.com/user-attachments/assets/92c599a2-7822-4378-a85a-fa43568ad3e7" />
+
+</a>
+
+
+<p align="center"><em>그림 3. 실제 vs 예측</em></p>
+
+---
+
+### 그림 4. 예측 오차 분포 히스토그램
+
+<a href="https://github.com/user-attachments/assets/81304333-0720-4ed4-921f-6ef139852990" target="_blank">
+  <img width="1176" height="418" alt="스크린샷 2025-08-06 오후 12 07 11" src="https://github.com/user-attachments/assets/03fb1ac6-a6a0-471d-8f5f-14c3a78a1431" />
+</a>
+
+<p align="center"><em>그림 4. 예측 오차(Actual – Predicted) 분포 히스토그램</em></p>
+
+---
+
+### 그림 5. 전체 지역 예측 결과 비교
+
+<a href="https://github.com/user-attachments/assets/db6c9ea1-59f4-4f1b-a4d3-9200c57e1dba" target="_blank">
+  <img width="1171" height="377" alt="스크린샷 2025-08-06 오후 12 08 20" src="https://github.com/user-attachments/assets/edf78a84-c578-4996-96fa-6ea4dc2c7d71" />
+</a>
+<p align="center"><em>그림 5. 전국 시군구별 실제 vs 예측 흡연율 추이 비교</em></p>
+
+---
+
+### 그림 6. 모델 성능 순위 (R²)
+
+<a href="https://github.com/user-attachments/assets/f3e6d558-d749-4d62-8be2-a549397353c9" target="_blank">
+  <img width="1107" height="679" alt="스크린샷 2025-08-06 오후 12 32 42" src="https://github.com/user-attachments/assets/e5afc9e3-796b-46c0-9887-5e5c2ec948de" />
+  <img width="1107" height="647" alt="스크린샷 2025-08-06 오후 12 33 43" src="https://github.com/user-attachments/assets/e2f8ffb4-5930-4167-99f1-ed72c433eafc" />
+
+</a>
+
+<p align="center"><em>그림 6. 전체 모델 R² 순위 비교</em></p>
+
 
 <!-- 순위 표는 별도로 -->
 <div align="center">
