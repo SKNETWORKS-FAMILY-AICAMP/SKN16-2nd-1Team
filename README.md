@@ -122,33 +122,6 @@
   <p><em>그림 6. SimpleMLP vs DeepMLP vs WideMLP 학습 손실 곡선</em></p>
 </div>
 
-## 2.5.3 딥러닝 모델 비교
-
-SimpleMLP, DeepMLP, WideMLP 세 가지 MLP 구조를 동일한 데이터에 학습·평가한 결과
-
-| 모델명      | 구조                       | 활성화 | 드롭아웃 | R² (테스트) |
-|-------------|----------------------------|--------|---------|-------------|
-| **SimpleMLP** | [input_dim → 32 → 1]      | ReLU   | 0.0     | 0.740       |
-| **DeepMLP**   | [input_dim → 128 → 64 → 1]| ReLU   | 0.3     | 0.822       |
-| **WideMLP**   | [input_dim → 64 → 32 → 1] | ReLU   | 0.4     | 0.935       |
-
-
-> **표 1.** SimpleMLP·DeepMLP·WideMLP 성능 비교 (테스트 세트)
-
-- **SimpleMLP**  
-  - 가장 단순한 구조: 한 개의 은닉층(32 유닛)  
-  - 빠른 학습 속도, 다소 높은 MSE/MAE  
-
-- **DeepMLP**  
-  - 다층 구조(128→64 유닛)  
-  - BatchNorm 및 Dropout 적용으로 안정적 학습  
-  - SimpleMLP 대비 성능 향상  
-
-- **WideMLP**  
-  - 중간 너비(64→32 유닛) + 강한 Dropout(0.4)  
-  - 최저 MSE·MAE, 최고 R² 기록  
-  - 최상위 모델로 선정  
-
 ---
 
 ## 🚀 3. 시연 페이지  
