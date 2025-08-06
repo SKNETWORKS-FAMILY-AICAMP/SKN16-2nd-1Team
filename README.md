@@ -103,6 +103,7 @@
 ### 2.5.2 최상위 모델: DeepLearning (딥러닝)
 
 가장 우수한 성능을 보인 **DeepLearning** 모델을 최상위 모델로 선정 (Optuna로 최적의 하이퍼파라미터 적용)  
+<p> epoch 500 </p>
 
 | 모델명    | 구조                                    | 활성화 | 드롭아웃 | R² (테스트) |
 |----------|-----------------------------------------|--------|---------|-------------|
@@ -117,6 +118,19 @@
  <img width="689" height="467" alt="loss" src="https://github.com/user-attachments/assets/6ff45f5b-58f8-48a3-863a-b773db8c1e84" />
   <p><em>그림 6. 학습 손실 곡선</em></p>
 </div>
+
+| 모델명    | 구조                                    | 활성화 | 드롭아웃 | R² (테스트) |
+|----------|-----------------------------------------|--------|---------|-------------|
+| DeepLearning | Input → 99 → 80 → Output               | ReLU   | 0.3703     | 0.8813       |
+<p> epoch 100 </p>
+<div align="center">
+<img width="459" height="375" alt="100_MSE" src="https://github.com/user-attachments/assets/7b94577c-8587-46f9-a21d-035d8a9c1c4b" />
+<img width="987" height="590" alt="100_CORR" src="https://github.com/user-attachments/assets/69d7aa5a-0e0c-4c96-9516-e469dc447c6b" />
+<img width="590" height="590" alt="100_SCATTER" src="https://github.com/user-attachments/assets/cdb91c17-4f11-4102-88a2-be318f39200d" />
+<img width="689" height="467" alt="100_CURVE" src="https://github.com/user-attachments/assets/4aba6326-8284-4e4f-97a7-e570f352f316" />
+</div>
+
+
 
 ---
 
