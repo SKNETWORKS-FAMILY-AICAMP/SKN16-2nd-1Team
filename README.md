@@ -117,7 +117,6 @@
  <img width="689" height="467" alt="loss" src="https://github.com/user-attachments/assets/6ff45f5b-58f8-48a3-863a-b773db8c1e84" />
   <p><em>그림 6. 학습 손실 곡선</em></p>
 </div>
----
 
 ---
 
