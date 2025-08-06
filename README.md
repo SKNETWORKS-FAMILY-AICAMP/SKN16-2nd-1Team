@@ -102,36 +102,29 @@
 
 #### 2.5.1 모델별 R² 비교  
 <div align="center">
-  <img width="988" height="590" alt="Image" src="https://github.com/user-attachments/assets/04d4dac7-dd47-42cb-9a75-401bd1d89963" />
+  <img width="482" height="431" alt="4__r2" src="https://github.com/user-attachments/assets/7801140e-347b-4cc1-b586-c1f10b6e8987" />
+  <img width="987" height="590" alt="deeplearning" src="https://github.com/user-attachments/assets/a2b1a5fa-f19f-4bab-b731-8fb1d3180d43" />
   <p><em>그림 4. 모델별 R²</em></p>
 </div>
 
+### 2.5.2 최상위 모델: DeepLearning (딥러닝)
+
+가장 우수한 성능을 보인 **DeepLearning** 모델을 최상위 모델로 선정  
+
 | 모델명    | 구조                                    | 활성화 | 드롭아웃 | R² (테스트) |
 |----------|-----------------------------------------|--------|---------|-------------|
-| SimpleMLP | [64 → 32] 선형층 두 개                  | ReLU   | 0.2     | 0.740       |
-| DeepMLP  | [64 → 64 → 32 → 16] 선형층 네 개         | ReLU   | 0.3     | 0.822       |
-| WideMLP  | [64 → 32] 선형층 두 개, 입출력 폭 확장    | ReLU   | 0.4     | **0.935**   |
-
-
-
-### 2.5.2 최상위 모델: WideMLP (딥러닝)
-
-가장 우수한 성능을 보인 **WideMLP** 모델을 최상위 모델로 선정  
+| DeepLearning | Input → 99 → 80 → Output               | ReLU   | 0.3703     | 0.9207       |
 
 <div align="center">
-  <img width="523" height="380" alt="Image" src="https://github.com/user-attachments/assets/d172e451-acd0-4605-bfb2-9db9bf7346fc" />
-  <p><em>그림 5. WideMLP 실제 vs 예측 산점도</em></p>
+  <img width="590" height="590" alt="lin" src="https://github.com/user-attachments/assets/cc805eff-6e0b-4af0-94aa-4a81032bedb4" />
+  <p><em>그림 5. DeepLearning 실제 vs 예측 산점도</em></p>
 </div>
-
-- **모델 비교 (Train Loss Curve)**  
-  SimpleMLP, DeepMLP, WideMLP의 학습 손실(MSE) 추이를 비교하면  
-  WideMLP가 빠르게 낮은 손실에 도달하여 과적합 없이 안정적인 학습 성능을 보임
 
 <div align="center">
-  <img width="1589" height="390" alt="Image" src="https://github.com/user-attachments/assets/dc971e16-8eb4-469f-bd13-8098ae4db919" />
-<img width="689" height="467" alt="Image" src="https://github.com/user-attachments/assets/dcd41572-b489-48cf-a222-8ce84377ca11" />
-  <p><em>그림 6. SimpleMLP vs DeepMLP vs WideMLP 학습 손실 곡선</em></p>
+ <img width="689" height="467" alt="loss" src="https://github.com/user-attachments/assets/6ff45f5b-58f8-48a3-863a-b773db8c1e84" />
+  <p><em>그림 6. 학습 손실 곡선</em></p>
 </div>
+---
 
 ---
 
