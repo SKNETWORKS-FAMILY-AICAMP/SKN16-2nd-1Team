@@ -142,6 +142,42 @@
 
 </div>
 
+| 모델명    | 구조                                    | 활성화 | 드롭아웃 | R² (테스트) |
+|----------|-----------------------------------------|--------|---------|-------------|
+| DeepLearning | Input → 99 → 80 → Output               | ReLU   | 0.3703     | 0.8853       |
+<p> epoch 600 </p>
+<div align="center">
+<img width="464" height="369" alt="600_MSE" src="https://github.com/user-attachments/assets/a18b40f9-cbef-4ff0-af9d-8c226d3a6db4" />
+<img width="987" height="590" alt="600_CORR" src="https://github.com/user-attachments/assets/c1bce91a-00a7-4ed7-b8e7-a4c2d5f99aa2" />
+<img width="590" height="590" alt="600_SCATTER" src="https://github.com/user-attachments/assets/067e489c-40a5-4be3-8bfa-c393342629ef" />
+<img width="689" height="467" alt="600_CURVE" src="https://github.com/user-attachments/assets/8be3011a-0dae-48db-9c60-f6f3b2248c13" />
+
+
+
+</div>
+
+| 모델명    | 구조                                    | 활성화 | 드롭아웃 | R² (테스트) |
+|----------|-----------------------------------------|--------|---------|-------------|
+| DeepLearning | Input → 99 → 80 → Output               | ReLU   | 0.3703     | 0.9517       |
+<p> epoch 1000 </p>
+<div align="center">
+<img width="461" height="367" alt="1000_MSE" src="https://github.com/user-attachments/assets/c4802869-dca1-4392-9a68-8b000cf2f666" />
+<img width="987" height="590" alt="1000_CORR" src="https://github.com/user-attachments/assets/72cd0a76-d9d5-42a3-af55-be729c0a96bc" />
+<img width="590" height="590" alt="1000_SCATTER" src="https://github.com/user-attachments/assets/e3c93973-bbf4-4fde-941a-6de5975dc578" />
+<img width="689" height="467" alt="1000_CURVE" src="https://github.com/user-attachments/assets/a2ccef3c-ce20-4aac-8356-b4bc5fc33b88" />
+</div>
+
+| 모델명    | 구조                                    | 활성화 | 드롭아웃 | R² (테스트) |
+|----------|-----------------------------------------|--------|---------|-------------|
+| DeepLearning | Input → 99 → 80 → Output               | ReLU   | 0.3703     | 0.9172       |
+<p> epoch 2000 </p>
+<div align="center">
+<img width="461" height="365" alt="MSE_2000" src="https://github.com/user-attachments/assets/a07f2286-2556-4c1e-8339-7c8ac038c09a" />
+<img width="987" height="590" alt="2000_CORR" src="https://github.com/user-attachments/assets/9e6329c0-21bd-4d3d-9627-b6cc302a9b5b" />
+<img width="590" height="590" alt="2000_SCATTER" src="https://github.com/user-attachments/assets/717c3317-e25a-4ac6-acc3-527949f7c22f" />
+<img width="689" height="467" alt="2000_CURVE" src="https://github.com/user-attachments/assets/09f75a83-5f9c-48ee-b9e5-c285828c346c" />
+</div>
+
 
 ---
 
