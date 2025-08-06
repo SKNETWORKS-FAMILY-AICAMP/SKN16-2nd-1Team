@@ -130,6 +130,17 @@
 <img width="689" height="467" alt="100_CURVE" src="https://github.com/user-attachments/assets/4aba6326-8284-4e4f-97a7-e570f352f316" />
 </div>
 
+| 모델명    | 구조                                    | 활성화 | 드롭아웃 | R² (테스트) |
+|----------|-----------------------------------------|--------|---------|-------------|
+| DeepLearning | Input → 99 → 80 → Output               | ReLU   | 0.3703     | 0.9042       |
+<p> epoch 250 </p>
+<div align="center">
+<img width="458" height="369" alt="MSE_250" src="https://github.com/user-attachments/assets/cf1185de-0256-4acc-b643-573598084126" />
+<img width="987" height="590" alt="250_CORR" src="https://github.com/user-attachments/assets/d2659703-1aeb-45fb-887e-bb479bbba50f" />
+<img width="590" height="590" alt="250_SCATTER" src="https://github.com/user-attachments/assets/65c926a7-09b5-47c4-b167-b858017562eb" />
+<img width="689" height="467" alt="250_CURVE" src="https://github.com/user-attachments/assets/e7fa5a01-8bf1-43ff-adad-5ebad7616027" />
+
+</div>
 
 
 ---
@@ -232,22 +243,5 @@
 - 추가 지표 결합으로 모델 확장 가능  
 
 ---
-
-### 📂 폴더 구조 예시
-```plain
-SKN16-2nd-1Team/
-├─ README.md
-├─ requirements.txt
-├─ app.py
-├─ data/
-│   └─ 시군구별_흡연률.csv
-└─ assets/
-    ├─ 1__.png
-    ├─ 2__.png
-    ├─ 3__top10.png
-    ├─ 4__r2.png
-    ├─ 5_Top_.png
-    └─ streamlit_preview.png
 © 2025 SKN 16기 2차 단위프로젝트 1팀
-makefile
-::contentReference[oaicite:0]{index=0}
+
