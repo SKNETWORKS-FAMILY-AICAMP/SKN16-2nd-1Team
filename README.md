@@ -143,13 +143,53 @@ Streamlit 웹 앱에서 제공하는 기능:
 - **예측 및 튜닝**: 10개 모델 하이퍼파라미터 튜닝, 2023년 흡연율 실시간 예측  
 
 <div align="center">
-  <img width="910" height="777" alt="연도별 데이터" src="https://github.com/user-attachments/assets/3cc2267b-ccbe-482d-b6e7-bdbdbd02db2c" />
-  <img width="910" height="482" alt="변수별 상관관계" src="https://github.com/user-attachments/assets/2844e05c-570d-4c91-923d-ec947088d7aa" />
-  <img width="910" height="652" alt="예측 성능" src="https://github.com/user-attachments/assets/ace84df2-f33a-4510-b262-775b0344456b" />
-  <img width="910" height="268" alt="오차 분포" src="https://github.com/user-attachments/assets/81304333-0720-4ed4-921f-6ef139852990" />
-  <img width="910" height="192" alt="전체 예측 결과" src="https://github.com/user-attachments/assets/db6c9ea1-59f4-4f1b-a4d3-9200c57e1dba" />
-  <img width="910" height="715" alt="모델 성능 순위" src="https://github.com/user-attachments/assets/f3e6d558-d749-4d62-8be2-a549397353c9" />
-  <img width="910" height="192" alt="순위 표" src="https://github.com/user-attachments/assets/9249ba3d-42e7-4a9f-9aac-3bb0894190b0" />
+
+<!-- 1행: 연도별 데이터 vs 변수별 상관관계 -->
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/3cc2267b-ccbe-482d-b6e7-bdbdbd02db2c" width="430"/><br/>
+      <em>그림 1. 연도별 주요 지표 추이</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/2844e05c-570d-4c91-923d-ec947088d7aa" width="430"/><br/>
+      <em>그림 2. 변수 간 상관관계 히트맵</em>
+    </td>
+  </tr>
+  
+  <!-- 2행: 예측 성능 vs 오차 분포 -->
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/ace84df2-f33a-4510-b262-775b0344456b" width="430"/><br/>
+      <em>그림 3. 최상위 모델 예측 성능</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/81304333-0720-4ed4-921f-6ef139852990" width="430"/><br/>
+      <em>그림 4. 예측 오차 분포 히스토그램</em>
+    </td>
+  </tr>
+  
+  <!-- 3행: 전체 예측결과 vs 모델 성능 순위 -->
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/db6c9ea1-59f4-4f1b-a4d3-9200c57e1dba" width="430"/><br/>
+      <em>그림 5. 전체 지역 예측 결과</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/f3e6d558-d749-4d62-8be2-a549397353c9" width="430"/><br/>
+      <em>그림 6. 모델 성능 순위 (R²)</em>
+    </td>
+  </tr>
+</table>
+
+<!-- 순위 표는 별도로 -->
+<div align="center">
+  <img width="1102" height="332" alt="스크린샷 2025-08-06 오전 11 52 22" src="https://github.com/user-attachments/assets/7dc33a4e-7898-4182-be99-00fee6de797d" />
+  <em>그림 7. 전체 모델 순위 표</em>
+</div>
+
+</div>
+
 
 </div>
 
