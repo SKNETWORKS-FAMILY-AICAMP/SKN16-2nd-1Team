@@ -150,5 +150,3 @@ SKN16-2nd-1Team/
 © 2025 SKN 16기 2차 단위프로젝트 1팀
 makefile
 ::contentReference[oaicite:0]{index=0}
-
-ChatGPT에게 묻기
