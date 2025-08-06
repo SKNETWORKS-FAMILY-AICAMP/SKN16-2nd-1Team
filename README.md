@@ -1,7 +1,6 @@
 # 🎯 SKN16-2nd-1Team: 2023년 흡연율 예측 프로젝트
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)  
-[![Streamlit](https://img.shields.io/badge/Streamlit-v1.0-orange)](https://streamlit.io/)
+
 
 ---
 
@@ -25,6 +24,18 @@
 1. 과거(2020–2022년) 데이터로 2023년 흡연율 예측  
 2. 10종 회귀 모델(RF, XGBoost, LGBM, Stacking 등) 성능 비교  
 3. Streamlit 웹 앱으로 대시보드 배포  
+
+---
+## 🛠️ 기술 스택
+
+| 구분                   | 도구 및 라이브러리                                                                                                                      |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **언어**                | [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)                                                     |
+| **데이터 처리**           | [![pandas](https://img.shields.io/badge/pandas-v1.5-blue)](https://pandas.pydata.org/)  [![NumPy](https://img.shields.io/badge/NumPy-v1.24-blue)](https://numpy.org/)                                   |
+| **머신러닝**             | [![scikit-learn](https://img.shields.io/badge/scikit--learn-v1.2-orange)](https://scikit-learn.org/)  [![XGBoost](https://img.shields.io/badge/XGBoost-v1.7-orange)](https://xgboost.readthedocs.io/)  [![LightGBM](https://img.shields.io/badge/LightGBM-v3.3-green)](https://lightgbm.readthedocs.io/)  [![CatBoost](https://img.shields.io/badge/CatBoost-v1.1-purple)](https://catboost.ai/)                     |
+| **딥러닝**              | [![PyTorch](https://img.shields.io/badge/PyTorch-v1.13-red)](https://pytorch.org/)                                                     |
+| **하이퍼파라미터 튜닝**      | [![Optuna](https://img.shields.io/badge/Optuna-v3.1-yellow)](https://optuna.org/)                                                     |
+| **웹 프레임워크**          | [![Streamlit](https://img.shields.io/badge/Streamlit-v1.0-orange)](https://streamlit.io/)                                              |
 
 ---
 
