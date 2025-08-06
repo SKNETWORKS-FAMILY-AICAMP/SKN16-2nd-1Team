@@ -101,13 +101,25 @@
 | WideMLP    | [64 → 32] 선형층 두 개, 입출력 폭 확장    | ReLU   | 0.4     | 0.935 |
 
 
-#### 2.5.2 최상위 모델(Gradient Boosting) 예측 성능  
-- **산점도**: 실제 vs 예측  
-- **히스토그램**: 오차 분포  
+### 2.5.2 최상위 모델: WideMLP (딥러닝)
+
+Gradient Boosting 대신 Deep MLP 계열 중 가장 우수한 성능을 보인 **WideMLP** 모델을 최상위 모델로 선정했습니다.  
+
 <div align="center">
-  <img width="1489" height="390" alt="Image" src="https://github.com/user-attachments/assets/de415e93-5406-40ad-9aa0-434c96adcccf" />
-  <p><em>그림 5. Gradient Boosting 예측 성능</em></p>
+  <img width="523" height="380" alt="Image" src="https://github.com/user-attachments/assets/d172e451-acd0-4605-bfb2-9db9bf7346fc" />
+  <p><em>그림 5. WideMLP 실제 vs 예측 산점도</em></p>
 </div>
+
+- **모델 비교 (Train Loss Curve)**  
+  SimpleMLP, DeepMLP, WideMLP의 학습 손실(MSE) 추이를 비교하면  
+  WideMLP가 빠르게 낮은 손실에 도달하여 과적합 없이 안정적인 학습 성능을 보였습니다.
+
+<div align="center">
+  <img width="1589" height="390" alt="Image" src="https://github.com/user-attachments/assets/dc971e16-8eb4-469f-bd13-8098ae4db919" />
+<img width="689" height="467" alt="Image" src="https://github.com/user-attachments/assets/dcd41572-b489-48cf-a222-8ce84377ca11" />
+  <p><em>그림 6. SimpleMLP vs DeepMLP vs WideMLP 학습 손실 곡선</em></p>
+</div>
+
 
 ---
 
