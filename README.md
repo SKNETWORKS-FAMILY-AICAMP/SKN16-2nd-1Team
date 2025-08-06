@@ -105,7 +105,7 @@
 
 ### 2.5.2 최상위 모델: WideMLP (딥러닝)
 
-Gradient Boosting 대신 Deep MLP 계열 중 가장 우수한 성능을 보인 **WideMLP** 모델을 최상위 모델로 선정했습니다.  
+가장 우수한 성능을 보인 **WideMLP** 모델을 최상위 모델로 선정  
 
 <div align="center">
   <img width="523" height="380" alt="Image" src="https://github.com/user-attachments/assets/d172e451-acd0-4605-bfb2-9db9bf7346fc" />
@@ -114,7 +114,7 @@ Gradient Boosting 대신 Deep MLP 계열 중 가장 우수한 성능을 보인 *
 
 - **모델 비교 (Train Loss Curve)**  
   SimpleMLP, DeepMLP, WideMLP의 학습 손실(MSE) 추이를 비교하면  
-  WideMLP가 빠르게 낮은 손실에 도달하여 과적합 없이 안정적인 학습 성능을 보였습니다.
+  WideMLP가 빠르게 낮은 손실에 도달하여 과적합 없이 안정적인 학습 성능을 보임
 
 <div align="center">
   <img width="1589" height="390" alt="Image" src="https://github.com/user-attachments/assets/dc971e16-8eb4-469f-bd13-8098ae4db919" />
@@ -124,7 +124,7 @@ Gradient Boosting 대신 Deep MLP 계열 중 가장 우수한 성능을 보인 *
 
 ## 2.5.3 딥러닝 모델 비교
 
-SimpleMLP, DeepMLP, WideMLP 세 가지 MLP 구조를 동일한 데이터에 학습·평가한 결과는 다음과 같습니다.
+SimpleMLP, DeepMLP, WideMLP 세 가지 MLP 구조를 동일한 데이터에 학습·평가한 결과
 
 | 모델명      | 구조                       | 활성화 | 드롭아웃 | R² (테스트) |
 |-------------|----------------------------|--------|---------|-------------|
