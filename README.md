@@ -143,7 +143,14 @@ Streamlit 웹 앱에서 제공하는 기능:
 - **예측 및 튜닝**: 10개 모델 하이퍼파라미터 튜닝, 2023년 흡연율 실시간 예측  
 
 <div align="center">
-  <img src="assets/streamlit_preview.png" alt="Streamlit 시연 화면" width="700"/>
+  <img width="918" height="777" alt="연도별 데이터" src="https://github.com/user-attachments/assets/3cc2267b-ccbe-482d-b6e7-bdbdbd02db2c" />
+  <img width="917" height="482" alt="변수별 상관관계" src="https://github.com/user-attachments/assets/2844e05c-570d-4c91-923d-ec947088d7aa" />
+  <img width="692" height="652" alt="예측 성능" src="https://github.com/user-attachments/assets/ace84df2-f33a-4510-b262-775b0344456b" />
+  <img width="547" height="268" alt="오차 분포" src="https://github.com/user-attachments/assets/81304333-0720-4ed4-921f-6ef139852990" />
+  <img width="533" height="192" alt="전체 예측 결과" src="https://github.com/user-attachments/assets/db6c9ea1-59f4-4f1b-a4d3-9200c57e1dba" />
+  <img width="688" height="715" alt="모델 성능 순위" src="https://github.com/user-attachments/assets/f3e6d558-d749-4d62-8be2-a549397353c9" />
+  <img width="538" height="192" alt="순위 표" src="https://github.com/user-attachments/assets/9249ba3d-42e7-4a9f-9aac-3bb0894190b0" />
+
 </div>
 
 ---
