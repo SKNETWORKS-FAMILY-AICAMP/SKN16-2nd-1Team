@@ -91,7 +91,7 @@
 
 #### 2.5.1 모델별 R² 비교  
 <div align="center">
-  <img width="987" height="590" alt="Image" src="https://github.com/user-attachments/assets/77656f4e-634d-46bc-9eb3-5446dae529c8" />
+  <img width="988" height="590" alt="Image" src="https://github.com/user-attachments/assets/04d4dac7-dd47-42cb-9a75-401bd1d89963" />
   <p><em>그림 4. 모델별 R²</em></p>
 </div>
 
