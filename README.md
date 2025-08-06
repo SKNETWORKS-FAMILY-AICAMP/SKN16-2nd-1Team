@@ -133,7 +133,7 @@
 | 모델명    | 구조                                    | 활성화 | 드롭아웃 | R² (테스트) |
 |----------|-----------------------------------------|--------|---------|-------------|
 | DeepLearning | Input → 99 → 80 → Output               | ReLU   | 0.3703     | 0.9042       |
-<p> epoch 250 </p>
+<p> epoch 200 </p>
 <div align="center">
 <img width="458" height="369" alt="MSE_250" src="https://github.com/user-attachments/assets/cf1185de-0256-4acc-b643-573598084126" />
 <img width="987" height="590" alt="250_CORR" src="https://github.com/user-attachments/assets/d2659703-1aeb-45fb-887e-bb479bbba50f" />
