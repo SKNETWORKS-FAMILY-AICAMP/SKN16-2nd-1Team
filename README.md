@@ -93,14 +93,7 @@
 
 ### 2.5 모델 성능 비교 및 해석
 
-#### 2.5.1 모델별 R² 비교  
-<div align="center">
-  <img width="482" height="431" alt="4__r2" src="https://github.com/user-attachments/assets/7801140e-347b-4cc1-b586-c1f10b6e8987" />
-  <img width="987" height="590" alt="deeplearning" src="https://github.com/user-attachments/assets/a2b1a5fa-f19f-4bab-b731-8fb1d3180d43" />
-  <p><em>그림 4. 모델별 R²</em></p>
-</div>
-
-## 2.5.2 최상위 모델: DeepLearning (딥러닝)
+## 2.5.1 최상위 모델: DeepLearning (딥러닝)
 Optuna로 최적화한 하이퍼파라미터 적용 모델의 epoch별 성능 
 
 <table width="100%">
